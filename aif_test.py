@@ -7,7 +7,7 @@ warnings.filterwarnings('ignore')
 def main():
 
     profile_icon = "https://raw.githubusercontent.com/sjpradhan/aif_test/master/transaction.png"
-    st.set_page_config(page_title="Aif-Transactions" , page_icon=profile_icon)
+    st.set_page_config(page_title="Aif-Transactions", page_icon=profile_icon)
     st.header(":rainbow[Upload Transaction File]")
 
     col1, col2 = st.columns(2)
